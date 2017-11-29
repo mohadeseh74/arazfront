@@ -1,0 +1,269 @@
+.slider {
+  width: 100%
+}
+
+.swiper-slide img {
+  width: 100%;
+}
+
+.quote {
+  text-align: center;
+  padding: 55px 0px;
+  background-color: #f2f3f8;
+}
+
+.box-quote {
+  background-color: #fff;
+}
+
+.box-1 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40px 0px;
+}
+
+.box-1 select {
+  width: 100%;
+  border: 0px;
+  background-color: #f3f4f8;
+  padding: 18px 4px;
+}
+
+.box-1 label {
+  float: right;
+  font-weight: 300;
+}
+
+.order-one {
+  order: 1;
+}
+
+.order-two {
+  order: 2;
+}
+
+.order-three {
+  order: 3;
+}
+
+.order-4 {
+  order: 4;
+}
+
+.order-5 {
+  order: 5;
+}
+
+.order-6 {
+  order: 6;
+}
+.order-7{
+  order: 7;
+}
+.order-8{
+  order: 8;
+}
+
+.box-1 input {
+  width: 100%;
+  border: 0px;
+  background-color: #f3f4f8;
+  padding: 18px 4px;
+}
+
+.box1-1 {
+  margin-bottom: 30px;
+}
+
+.box1-2 input {
+  background-color: #78abf1;
+  color: #fff;
+  margin-top: 26px;
+}
+
+.services {
+  text-align: center;
+  padding: 55px 0px;
+  background-color: #f2f3f8;
+}
+
+.service-1 {
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+.service-1 img {
+  width: 100%;
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  -webkit-transition: .6s ease-in-out;
+  transition: .6s ease-in-out;
+}
+
+.over-box {
+  position: relative;
+  overflow: hidden;
+}
+
+.image {
+  display: block;
+  width: 10%;
+  height: auto;
+}
+
+.over-box:hover img {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(69, 167, 199, 0.68);
+}
+
+.over-box:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.about {
+  text-align: center;
+  padding: 55px 0px;
+  box-shadow: 0px -1px 3px #d8d8d8;
+
+}
+
+.tabs input[type=radio] {
+  position: absolute;
+  left: -9999px;
+  right: -9999px;
+}
+
+.tabs {
+  width: 100%;
+  min-height: 212px;
+  float: none;
+  list-style: none;
+  position: relative;
+  padding: 0;
+  margin: 50px auto;
+}
+
+.tabs li {
+  float: right;
+  width: 33%;
+}
+
+.tabs label {
+  display: block;
+  padding: 4px 21px;
+  border-radius: 2px 2px 0 0;
+  color: #9b9b9b;
+  font-size: 20px;
+  font-weight: normal;
+  background: rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+  position: relative;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.tabs label:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+[id^=tab]:checked+label {
+  background: #fff;
+  color: #000;
+  border-bottom: 2px solid #5993e3;
+}
+
+[id^=tab]:checked~[id^=tab-content] {
+  display: block;
+}
+
+.tab-content {
+  z-index: 2;
+  display: none;
+  text-align: justify;
+  width: 100%;
+  font-size: 17px;
+  line-height: 140%;
+  padding-top: 10px;
+  background: #fff;
+  padding: 15px;
+  color: #000;
+  position: absolute;
+  top: 53px;
+  left: 0;
+  box-sizing: border-box;
+  -webkit-animation-duration: 0.5s;
+  -o-animation-duration: 0.5s;
+  -moz-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+}
+
+.about .read-more a {
+  background-color: #78abf1;
+  padding: 13px 39px;
+  color: #fff;
+  font-weight: 300;
+  text-decoration: none;
+}
+.statistics{
+    /*margin-bottom: 100px;*/
+}
+.statis-box{
+    padding: 38px 5px 37px;
+background-color: #556374;
+text-align: center;
+    border: .5px solid #5d6c7d;
+}
+.statis-box span{
+  color: #718295;
+  font-size: 70px;
+font-weight: 700;
+}
+.statis-box h4{
+  color: #fff;
+      font-weight: 200;
+      padding: 0px;
+      margin: 0px;
+}
+.img-box-sta{
+  height: 390px;
+overflow: hidden;
+}
+.img-box-sta img{
+  position: absolute;
+  top: 45%;
+  left: 45%;
+  transform: translate(-50% ,-50%);
+}
+@media screen and (max-width:991px) {
+  .service-1 {
+    overflow: hidden;
+    max-height: 300px;
+    padding: 25px 12.5px;
+  }
+}
